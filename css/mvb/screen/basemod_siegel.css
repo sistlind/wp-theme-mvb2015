@@ -1,0 +1,21 @@
+/**
+ * Projekt Vorlagenkatalog 
+ *
+ * Basisstylesheet techfak 2013
+ *
+ * @mod_name        siegel
+ * @mod_desc        Fau-Siegel im Hintegrund des Content-Bereiches
+ *
+ * @copyright       Copyright 2012, RRZE
+ * @license         CC-A 2.0 (http://creativecommons.org/licenses/by/2.0/)
+ * @link            http://www.vorlagen.uni-erlangen.de
+ * @package         css
+ * @version         1.1
+ * @lastmodified    06/2015
+ */
+@media screen, projection {
+  div#main {
+    background: url(../../../img/logos/fau/fau-siegel.png);
+    background-repeat: no-repeat;
+    background-position: 120% 100%;
+    background-size: 50%; } }

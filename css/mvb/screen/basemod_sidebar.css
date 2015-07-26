@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/**
+ * Projekt Vorlagenkatalog
+ *
+ * Basisstylesheet Techfak 2013
+ *
+ * @mod_name        sidebar
+ * @mod_desc        Sidebar-Spalte rechts neben Content
+ *
+ * @copyright       Copyright 2005-2011, RRZE
+ * @license         CC-A 2.0 (http://creativecommons.org/licenses/by/2.0/)
+ * @link            http://www.vorlagen.uni-erlangen.de
+ * @package         css
+ * @version         1.1
+ * @lastmodified    06/2015
+ */
+@media screen, projection {
+  div#kopf div#titel {
+    margin-right: 16.6em; }
+
+  div#main div#sidebar {
+    display: block;
+    float: right;
+    width: 15.6em;
+    padding: 1em;
+    background-color: #eeeff1;
+    border: 1px solid #CCC;
+    margin-top: 70px;
+    margin-right: 20px;
+    /*box-shadow: 0 2px 2px rgba(0,0,0,0.2);*/
+    font-size: 0.76em; }
+    div#main div#sidebar h2, div#main div#sidebar h3 {
+      padding-bottom: 3px;
+      border-bottom: #003366 1px solid;
+      margin-bottom: 5px;
+      color: #666f7a; }
+    div#main div#sidebar p {
+      font-size: .9em;
+      line-height: 150%;
+      margin: 4px 0 8px 0; }
+    div#main div#sidebar a, div#main div#sidebar a:link, div#main div#sidebar a:visited {
+      color: #575e68; }
+    div#main div#sidebar a:focus, div#main div#sidebar a:active, div#main div#sidebar a:hover {
+      color: #666f7a; }
+    div#main div#sidebar ul {
+      margin-left: 20px;
+      list-style-type: disc; }
+      div#main div#sidebar ul li {
+        margin-bottom: 3px; }
+    div#main div#sidebar div.feedeintrag {
+      width: 100%; }
+  div#main:after {
+    clear: both;
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden; } }
+/*  ------------------------------------------------------------------------------------------------------------
+						BREAKPOINT  960px
+--------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 960px) {
+  /* Definitionen nur fÃ¼r maximale Fenster- bzw. Bildschirmbreite von 768px - Standard fÃ¼r Tablets */
+  div#kopf div#titel {
+    right: 0;
+    padding-right: 10px; }
+
+  #menu {
+    padding-bottom: 520px; }
+
+  /*  ------------------------------------------------------
+  SIDEBAR
+  --------------------------------------------------------*/
+  div#main div#sidebar {
+    position: absolute;
+    bottom: 20px;
+    height: 500px;
+    overflow-y: scroll;
+    width: 100%;
+    margin: 0;
+    padding: 10px; }
+    div#main div#sidebar div#suche input#s {
+      width: 12em;
+      padding: 4px 3px;
+      float: left;
+      margin-right: 5px; }
+    div#main div#sidebar div#suche input[type="submit"] {
+      float: none;
+      padding: 3px; }
+
+  /*  ------------------------------------------------------
+  CONTENT
+  --------------------------------------------------------*/
+  div#main div#content {
+    min-height: 0;
+    padding-bottom: 540px; } }
+/*  ------------------------------------------------------------------------------------------------------------
+						BREAKPOINT  480px
+--------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 480px) {
+  div#main div#sidebar {
+    width: 90%; } }
+/*  ------------------------------------------------------------------------------------------------------------
+						BREAKPOINT  280px
+--------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 280px) {
+  div#sidebar .widget {
+    padding: 5px; } }

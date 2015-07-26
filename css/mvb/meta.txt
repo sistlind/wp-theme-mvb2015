@@ -1,0 +1,31 @@
+basemod_gelb.css	Department Elektrotechnik-Elektronik-Informationstechnik (gelb)
+basemod_orange.css	Department Chemie- und Bioingenieurwesen (orange)
+basemod_rot.css	Department Werkstoffwissenschaften (rot)
+basemod_gruen.css	Department Maschinenbau (gruen)
+basemod_hellblau.css	Department Informatik (blau)
+basemod_studium-berufspaedagogik-technik.css	Studium Berufspädagogik Technik
+basemod_studium-cbi.css	Studium Chemie- und Bioingenieurwesen
+basemod_studium-cen.css	Studium Chemical Engeneering
+basemod_studium-ce.css	Studium Computational Engineering
+basemod_studium-cme.css	Studium Communication and Multimedia Engineering
+basemod_studium-eei.css	Studium Elektrotechnik-Elektronik-Informationstechnik
+basemod_studium-et.css	Studium Energietechnik
+basemod_studium-informatik.css	Studium Informatik
+basemod_studium-iuk.css	Studium Informations- und Kommunikationstechnik
+basemod_studium-ip.css	Studium International Production Engineering and Management
+basemod_studium-lehramt-informatik.css	Studium Lehramt Informatik
+basemod_studium-lse.css	Studium Life Science Engineering
+basemod_studium-mb.css	Studium Maschinenbau
+basemod_studium-mechatronik.css	Studium Mechatronik
+basemod_studium-medizintechnik.css	Studium Medizintechnik
+basemod_studium-nano.css	Studium Nanotechnologie
+basemod_studium-win.css	Studium Wirtschaftsinformatik
+basemod_studium-wing.css	Studium Wirtschaftsingenieurwesen
+basemod_studium-ww.css	Studium Werkstoffwissenschaften
+basemod_sidebar.css	Aktiviert die Sidebar in rechter Spalte
+basemod_zusatzinfo.css 	Aktiviert Zusatzinfo-Block im Fußbereich
+basemod_disable_targetmenu.css	Zielgruppennavigation ausblenden
+basemod_disable_search.css	Suchfeld ausblenden
+basemod_transparente_tabellen.css	Transparente Tabellen
+basemod_links.css	Icons vor Links
+basemod_siegel.css	FAU-Siegel im Hintergrund des Content-Bereiches einblenden

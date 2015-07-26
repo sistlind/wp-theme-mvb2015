@@ -1,0 +1,29 @@
+/*
+Theme Name: wp-theme-mvb2015
+Theme URI: https://github.com/sistlind/wp-theme-mvb2015
+Author URI: http://www.mvburghaig.de/
+Author: Stefan Lindner
+Description: Wordpress-Theme for MVBurghaig.de
+Version: 1.0
+License: GNU General Public License
+License URI: http://www.gnu.org/copyleft/gpl.html
+Tags: 
+*/
+
+
+
+
+/* import core styles | Basis-Stylesheets einbinden */
+@import url(css/base.css);
+@import url(css/base_ym3.css);
+
+/* import screen layout | Screen-Layout einbinden */
+@import url(css/mvb/screen/basemod.css);
+@import url(css/mvb/screen/content.css);
+
+
+/* Media queries */
+@import url(css/mvb/screen/mediaqueries.css);
+
+/* import print layout | Print-Layout einbinden */
+@import url(css/mvb/print/print.css);

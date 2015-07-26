@@ -1,0 +1,41 @@
+/**
+ * Projekt Vorlagenkatalog
+ *
+ * Basisstylesheet Techfak
+ *
+ * @mod_name        disable_targetmenu
+ * @mod_desc        Zielgruppennavigation ausblenden
+ *
+ * @copyright       Copyright 2005-2011, RRZE
+ * @license         CC-A 2.0 (http://creativecommons.org/licenses/by/2.0/)
+ * @link            http://www.vorlagen.uni-erlangen.de
+ * @package         css
+ * @version         1.1
+ * @lastmodified    06/2015
+ */
+@media screen, projection {
+  div#seite {
+    background: white url(../grafiken/techfak-2013/balken-disable-targetmenu.gif) no-repeat; }
+
+  div#kopf div#hauptmenu ul {
+    display: none; }
+  div#kopf div#hauptmenu {
+    display: none; }
+  div#kopf div#logo {
+    height: 135px; }
+  div#kopf div#breadcrumb {
+    top: 165px; }
+  div#kopf div#titel {
+    top: 200px; }
+  div#kopf div#suche {
+    top: 170px; }
+
+  div#main {
+    background-position: top left;
+    margin-top: -2px;
+    border-top: 2px solid #adb4bb; }
+
+  div#footer div#footerinfos div#tecmenu {
+    top: 107px; }
+  div#footer div#footerinfos div#flaggen, div#footer div#footerinfos div.flaggen, div#footer div#footerinfos div#languagebar {
+    top: 150px !important; } }

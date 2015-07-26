@@ -1,0 +1,40 @@
+/**
+ * Projekt Vorlagenkatalog
+ *
+ * Basisstylesheet Techfak
+ *
+ * @mod_name        graue_tabellen
+ * @mod_desc        Tabellen und Boxen in Grau
+ *
+ * @copyright       Copyright 2005-2012, RRZE
+ * @license         CC-A 2.0 (http://creativecommons.org/licenses/by/2.0/)
+ * @link            http://www.vorlagen.uni-erlangen.de
+ * @package         css
+ * @version         1.1
+ * @lastmodified    06/2015
+ */
+@media screen, projection {
+  	/*#content tr {
+  		border-left: 1px solid transparent;
+  		border-top: 1px solid transparent;
+      } */
+  #content table.wechselfarbe tr td {
+    background-color: transparent; }
+
+  #content table.wechselfarbe tr:nth-child(odd) td {
+    background-color: #f7f8f9; }
+
+  #content tr.ungerade td {
+    background-color: #F2F5F7; }
+
+  #content tr.gerade td {
+    background-color: #f7f8f9; }
+
+  #content th {
+    background-color: #eeeff1; }
+
+  #content td {
+    background-color: transparent;
+    /*border-color: transparent;*/ }
+    #content td p {
+      font-size: 1em; } }

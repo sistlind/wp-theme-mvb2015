@@ -1,0 +1,155 @@
+/**
+ * Projekt Vorlagenkatalog
+ *
+ * Basisstylesheet Techfak 2013
+ *
+ * @mod_name        hellblau
+ * @mod_desc        Farbschema "hellblau"
+ *
+ * @copyright       Copyright 2005-2012, RRZE
+ * @license         CC-A 2.0 (http://creativecommons.org/licenses/by/2.0/)
+ * @link            http://www.vorlagen.uni-erlangen.de
+ * @package         css
+ * @version         1.1
+ * @lastmodified    06/2015
+ */
+/* Farbvariante
+ *     #6399AB  - Basisfarbe
+ */
+@media screen, projection {
+  /*  ------------------------------------------------------
+  HEADER
+  --------------------------------------------------------*/
+  div#kopf {
+    background: url(../../../grafiken/techfak-2013/header-techfak-hellblau-3b.png) no-repeat scroll 48% 0% transparent; }
+    div#kopf div#logo {
+      background-repeat: no-repeat;
+      background-position: 99% 0; }
+      div#kopf div#logo .site-name {
+        color: #fff;
+        text-shadow: 1px 1px 2px #4C4C4C;
+        letter-spacing: 0.05em; }
+        div#kopf div#logo .site-name a {
+          color: #fff; }
+    div#kopf div#hauptmenu {
+      background: #a4abb3 url(../../../grafiken/techfak-2013/hauptmenue-bg-hellblau.png) repeat-y;
+      margin-left: -27px;
+      padding-left: 27px; }
+    div#kopf div#titel h1 {
+      color: #6399ab; }
+
+  /*  ------------------------------------------------------
+  MAIN
+  --------------------------------------------------------*/
+  /*  ------------------------------------------------------
+  MENU - MAIN
+  --------------------------------------------------------*/
+  ul#navigation {
+    color: #000 !important; }
+    ul#navigation li span.aktiv,
+    ul#navigation ul#hauptnavigation li span.aktiv,
+    ul#navigation ul#hauptnavigation li a.aktiv,
+    ul#navigation ul#hauptnavigation ul li span.aktiv,
+    ul#navigation ul#hauptnavigation ul li ul li span.aktiv,
+    ul#navigation li.current-page-item > a,
+    ul#navigation li.current-menu-item > a,
+    ul#navigation li.current-page-ancestor > a,
+    ul#navigation li.current-menu-ancestor > a {
+      border-bottom: #6399ab 1px solid !important; }
+
+  /*  ------------------------------------------------------
+  CONTENT
+  --------------------------------------------------------*/
+  div#content h1 {
+    color: #6399ab; }
+  div#content h2 {
+    border-bottom: 1px solid #6399ab; }
+  div#content th {
+    border-right: 1px solid #6399ab;
+    border-bottom: 1px solid #6399ab; }
+  div#content td {
+    border-right: 1px solid #6399ab;
+    border-bottom: 1px solid #6399ab;
+    border-top: 1px solid #6399ab;
+    background: #f7f8f9; }
+  div#content tfoot td {
+    border-right: none;
+    background: #fff; }
+  div#content table.wechselfarbe tr td {
+    background: #f7f8f9; }
+  div#content table.wechselfarbe tr:nth-child(odd) td {
+    background: #eeeff1; }
+  div#content div.box_rechts,
+  div#content div.klein_box_rechts,
+  div#content div.vollbox {
+    border: 1px solid #6399ab; }
+  div#content form fieldset {
+    background: #f7f8f9; }
+    div#content form fieldset legend {
+      color: #6399ab; }
+
+  /*  ------------------------------------------------------
+  SIDEBAR
+  --------------------------------------------------------*/
+  div#main div#sidebar h3 {
+    border-bottom: #6399ab 1px solid; }
+
+  /*  ------------------------------------------------------
+  FOOTER
+  --------------------------------------------------------*/ }
+/*  ------------------------------------------------------------------------------------------------------------
+						BREAKPOINT  1090px
+--------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1090px) {
+  div#kopf {
+    background: url(../../../grafiken/techfak-2013/header-techfak-hellblau-2b.png) no-repeat scroll 48% 0% transparent; } }
+/*  ------------------------------------------------------------------------------------------------------------
+						BREAKPOINT  960px
+--------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 960px) {
+  div#kopf {
+    background: url(../../../grafiken/techfak-2013/header-techfak-hellblau-0b.png) no-repeat scroll 51% 0% transparent !important; }
+    div#kopf div#logo .site-name {
+      display: block;
+      top: 0 !important;
+      padding-left: 10px;
+      width: 41% !important;
+      max-width: 41% !important; } }
+/*  ------------------------------------------------------------------------------------------------------------
+						BREAKPOINT  630px
+--------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 630px) {
+  div#kopf div#logo {
+    background-size: 40% auto; }
+    div#kopf div#logo .site-name {
+      font-size: 1.2em !important; } }
+/*  ------------------------------------------------------------------------------------------------------------
+						BREAKPOINT  480px
+--------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 480px) {
+  div#kopf {
+    background-image: none !important; }
+    div#kopf div#logo .site-name {
+      width: 100% !important;
+      max-width: 100% !important;
+      color: #6399ab;
+      text-shadow: none; }
+      div#kopf div#logo .site-name a {
+        color: #6399ab;
+        text-shadow: none; }
+    div#kopf div#titel h1 {
+      margin: 10px !important;
+      padding: 10px 5px 10px 15px !important;
+      background: #6399ab;
+      color: #ffffff; }
+    div#kopf div#titel,
+    div#kopf div#sprungmarken {
+      margin-left: -27px; }
+    div#kopf div#hauptmenu {
+      height: auto;
+      background: none;
+      padding: 0;
+      border: none; } }
+/*  ------------------------------------------------------------------------------------------------------------
+						BREAKPOINT  320px
+--------------------------------------------------------------------------------------------------------------*/

@@ -1,0 +1,106 @@
+/**
+ * Projekt Vorlagenkatalog
+ *
+ * Basisstylesheet Techfak 2013
+ *
+ * @mod_name        fau
+ * @mod_desc        Farbschema "fau"
+ *
+ * @copyright       Copyright 2005-2014, RRZE
+ * @license         CC-A 2.0 (http://creativecommons.org/licenses/by/2.0/)
+ * @link            http://www.vorlagen.uni-erlangen.de
+ * @package         css
+ * @version         1.1
+ * @lastmodified    06/2015
+ */
+/* Farbvariante
+ *
+*/
+@media screen, projection {
+  /*  ------------------------------------------------------
+  HEADER
+  --------------------------------------------------------*/
+  div#seite {
+    background: url("../../../grafiken/techfak-2013/balken-komplett-fau.gif") no-repeat scroll 0 0 white; }
+
+  div#kopf {
+    background-image: none; }
+    div#kopf div#logo img {
+      float: left;
+      background-color: transparent;
+      max-height: 125px;
+      padding: 5px 15px 5px 0; }
+    div#kopf div#logo .site-name {
+      float: left; }
+    div#kopf div#logo p {
+      width: auto;
+      padding-top: 30px; }
+    div#kopf div#hauptmenu {
+      border-top: 2px solid #fff;
+      border-bottom: 2px solid #fff; }
+
+  div#footer div#footerinfos div#tecmenu {
+    top: 0; } }
+/*  ------------------------------------------------------------------------------------------------------------
+						BREAKPOINT  1090px
+--------------------------------------------------------------------------------------------------------------*/
+/*  ------------------------------------------------------------------------------------------------------------
+						BREAKPOINT  960px
+--------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 960px) {
+  div#seite {
+    background: url("../../../grafiken/techfak-2013/balken-bunt-fau.gif") no-repeat scroll 0 0 white; }
+
+  div#kopf div#logo {
+    padding: 0 20px 0 10px; }
+    div#kopf div#logo p {
+      max-width: 100%;
+      padding-top: 30px; }
+  div#kopf div#hauptmenu {
+    background: url("../../../grafiken/techfak-2013/hauptmenue-bg-fau.png") repeat-y scroll 0 0 #a4abb3; } }
+/*  ------------------------------------------------------------------------------------------------------------
+						BREAKPOINT  630px
+--------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 630px) {
+  div#kopf div#logo {
+    background-size: 40% auto; }
+    div#kopf div#logo p {
+      font-size: 1.3em !important; } }
+/*  ------------------------------------------------------------------------------------------------------------
+						BREAKPOINT  480px
+--------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 480px) {
+  div#seite {
+    background: url("../../../grafiken/techfak-2013/balken-bunt-fau.gif") no-repeat scroll left top/auto 110px white; }
+
+  div#kopf {
+    background-image: none !important; }
+    div#kopf div#logo {
+      border-bottom: none; }
+      div#kopf div#logo img {
+        max-height: 100px;
+        padding-right: 5px; }
+      div#kopf div#logo p {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding-top: 20px; }
+        div#kopf div#logo p .description {
+          margin-top: 0; }
+    div#kopf div#titel {
+      padding-right: 0; }
+      div#kopf div#titel h1 {
+        padding: 10px 5px 10px 15px !important;
+        background: #003366;
+        color: #ffffff;
+        margin: 15px 5px 10px 5px; }
+    div#kopf div#hauptmenu {
+      height: auto;
+      background: none;
+      padding: 0;
+      border: none; } }
+/*  ------------------------------------------------------------------------------------------------------------
+						BREAKPOINT  320px
+--------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 320px) {
+  div#kopf div#logo p {
+    padding-top: 30px !important; } }
